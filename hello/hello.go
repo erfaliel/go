@@ -1,7 +1,11 @@
+//mon premier script V0.1
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/erfaliel/go/string"
+)
 
 func main() {
-  fmt.Println("Hello, new gopher!")
+  fmt.Println(string.Reverse("Hello, new gopher!"))
 }
